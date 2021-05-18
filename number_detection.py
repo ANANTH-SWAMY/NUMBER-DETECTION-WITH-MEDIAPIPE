@@ -51,11 +51,11 @@ while True:
                             fingerlist.append(1)
                         else:
                             fingerlist.append(0)
-                    #print(fingerlist)
+                    
                     
                     if len(fingerlist)!=0:
                         fingercount=fingerlist.count(1)
-                    #print(fingercount)
+                    
                     
                     cv2.putText(img,str(fingercount),(25,430),cv2.FONT_HERSHEY_PLAIN,6,(0,0,0),5)
                     
